@@ -52,7 +52,7 @@ public class Frame extends JFrame {
 	public JLabel getBola() {
 		if (bola == null) {
 			bola = new JLabel("");
-			bola.setIcon(new ImageIcon("C:\\Users\\mateu\\Downloads\\bola (1).png"));
+			bola.setIcon(new ImageIcon(Frame.class.getResource("/assets/bola (1).png")));
 			bola.setBounds(150, 60, 32, 32);
 		}
 		return bola;
